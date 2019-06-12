@@ -16,7 +16,7 @@ setup(
     description='Provides access to the geolite2 database.  This product '
         'includes GeoLite2 data created by MaxMind, available from '
         'http://www.maxmind.com/',
-    install_requires=['python-geoip'],
+    install_requires=['python-geoip-python3'],
     include_package_data=True,
     zip_safe=False,
     classifiers=[
